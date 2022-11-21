@@ -1,5 +1,3 @@
-const { pi, simplifyDependencies } = require("mathjs")
-
 const canvas = document.querySelector('canvas')
 const ctx = canvas.getContext("2d")
 const cw = canvas.width
@@ -20,7 +18,6 @@ ctx.fillText("ALGOSUP", 200,50,300)
 ctx.fillStyle = "blue"
 ctx.fillRect((cw / 2 - rectWidth /2), (ch/ 2 - rectHeight/2), rectWidth, rectHeight)
 
-ctx.ellipse(150, 150, 40, 50, 0, 0, pi)
 ctx.fill()
 
 ctx.beginPath();
