@@ -32,15 +32,15 @@ ctx.lineTo(cw * 0.85, ch * 0.85)
 ctx.stroke();
 
 const image = new Image();
-image.src = 'image.jpg';
+image.src = 'daki.png';
 image.addEventListener('load', () => {
      ctx.drawImage(image, 0, (ch - 50) /2, 50, 50);
 });
 
 
-shape  
-x = 0; y: center
-w: 50; h: 50
+// shape  
+// x = 0; y: center
+// w: 50; h: 50
 
 const rH = 50
 const rW = 50
